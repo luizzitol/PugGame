@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6e471bd9a334d23cca3b18d6923e825",
+    "revision": "2ee3497212fd8fa5d6e62f32b3d76b38",
     "url": "/PugGame/index.html"
   },
   {
-    "revision": "32be54134d4baf347ef0",
+    "revision": "9e18e64218ba72106931",
     "url": "/PugGame/static/css/main.69c07a00.chunk.css"
   },
   {
-    "revision": "3572919abdc25cd901fb",
-    "url": "/PugGame/static/js/2.d7ae85b1.chunk.js"
+    "revision": "b101871dee317de5a650",
+    "url": "/PugGame/static/js/2.d1adefe4.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/PugGame/static/js/2.d7ae85b1.chunk.js.LICENSE.txt"
+    "url": "/PugGame/static/js/2.d1adefe4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32be54134d4baf347ef0",
-    "url": "/PugGame/static/js/main.05de1f2f.chunk.js"
+    "revision": "9e18e64218ba72106931",
+    "url": "/PugGame/static/js/main.d0d2063f.chunk.js"
   },
   {
     "revision": "d22d4bd930ff36884bc4",

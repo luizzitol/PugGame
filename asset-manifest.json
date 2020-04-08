@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PugGame/static/css/main.69c07a00.chunk.css",
-    "main.js": "/PugGame/static/js/main.05de1f2f.chunk.js",
-    "main.js.map": "/PugGame/static/js/main.05de1f2f.chunk.js.map",
+    "main.js": "/PugGame/static/js/main.d0d2063f.chunk.js",
+    "main.js.map": "/PugGame/static/js/main.d0d2063f.chunk.js.map",
     "runtime-main.js": "/PugGame/static/js/runtime-main.7a5c021d.js",
     "runtime-main.js.map": "/PugGame/static/js/runtime-main.7a5c021d.js.map",
-    "static/js/2.d7ae85b1.chunk.js": "/PugGame/static/js/2.d7ae85b1.chunk.js",
-    "static/js/2.d7ae85b1.chunk.js.map": "/PugGame/static/js/2.d7ae85b1.chunk.js.map",
+    "static/js/2.d1adefe4.chunk.js": "/PugGame/static/js/2.d1adefe4.chunk.js",
+    "static/js/2.d1adefe4.chunk.js.map": "/PugGame/static/js/2.d1adefe4.chunk.js.map",
     "index.html": "/PugGame/index.html",
-    "precache-manifest.2e7703f489962f35122f876ebeb60a99.js": "/PugGame/precache-manifest.2e7703f489962f35122f876ebeb60a99.js",
+    "precache-manifest.7ad3379c6adf2093f7c89f2ef6d09eb6.js": "/PugGame/precache-manifest.7ad3379c6adf2093f7c89f2ef6d09eb6.js",
     "service-worker.js": "/PugGame/service-worker.js",
     "static/css/main.69c07a00.chunk.css.map": "/PugGame/static/css/main.69c07a00.chunk.css.map",
-    "static/js/2.d7ae85b1.chunk.js.LICENSE.txt": "/PugGame/static/js/2.d7ae85b1.chunk.js.LICENSE.txt",
+    "static/js/2.d1adefe4.chunk.js.LICENSE.txt": "/PugGame/static/js/2.d1adefe4.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/PugGame/static/media/1.4e6dd09b.jpg",
     "static/media/2.jpg": "/PugGame/static/media/2.c2dd7afb.jpg",
     "static/media/3.jpg": "/PugGame/static/media/3.0536e2e9.jpg",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7a5c021d.js",
-    "static/js/2.d7ae85b1.chunk.js",
+    "static/js/2.d1adefe4.chunk.js",
     "static/css/main.69c07a00.chunk.css",
-    "static/js/main.05de1f2f.chunk.js"
+    "static/js/main.d0d2063f.chunk.js"
   ]
 }
