@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PugGame/static/css/main.b7844c91.chunk.css",
-    "main.js": "/PugGame/static/js/main.23fe8e9c.chunk.js",
-    "main.js.map": "/PugGame/static/js/main.23fe8e9c.chunk.js.map",
+    "main.js": "/PugGame/static/js/main.ef3fb254.chunk.js",
+    "main.js.map": "/PugGame/static/js/main.ef3fb254.chunk.js.map",
     "runtime-main.js": "/PugGame/static/js/runtime-main.7a5c021d.js",
     "runtime-main.js.map": "/PugGame/static/js/runtime-main.7a5c021d.js.map",
     "static/js/2.d7ae85b1.chunk.js": "/PugGame/static/js/2.d7ae85b1.chunk.js",
     "static/js/2.d7ae85b1.chunk.js.map": "/PugGame/static/js/2.d7ae85b1.chunk.js.map",
     "index.html": "/PugGame/index.html",
-    "precache-manifest.584a02b4aeb7ba54c0eb80ccb72574a4.js": "/PugGame/precache-manifest.584a02b4aeb7ba54c0eb80ccb72574a4.js",
+    "precache-manifest.814db9749ea09a9f68151eee7677a49a.js": "/PugGame/precache-manifest.814db9749ea09a9f68151eee7677a49a.js",
     "service-worker.js": "/PugGame/service-worker.js",
     "static/css/main.b7844c91.chunk.css.map": "/PugGame/static/css/main.b7844c91.chunk.css.map",
     "static/js/2.d7ae85b1.chunk.js.LICENSE.txt": "/PugGame/static/js/2.d7ae85b1.chunk.js.LICENSE.txt",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.7a5c021d.js",
     "static/js/2.d7ae85b1.chunk.js",
     "static/css/main.b7844c91.chunk.css",
-    "static/js/main.23fe8e9c.chunk.js"
+    "static/js/main.ef3fb254.chunk.js"
   ]
 }
