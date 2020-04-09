@@ -7,9 +7,9 @@ import bgImg from "./images/bg.jpg";
 import Card from "@material-ui/core/Card";
 import Shake from "react-reveal/Shake";
 
-export default function MemoryCard({ card, onClick }) {
+export default function MemoryCard({ card, onClick, landscape }) {
   return (
-    <Grid item className="w-1/6">
+    <Grid item className={landscape ? "w-1/6" : "w-1/3"}>
       <Tilt options={{ max: 15, scale: 1.05 }}>
         <Flip left spy={card.faceUp} duration={300}>
           <Shake spy={card.solved}>
@@ -21,7 +21,7 @@ export default function MemoryCard({ card, onClick }) {
                       onClick(card.id);
                     }
               }
-              style={{ paddingTop: "27vh" }}
+              style={{ paddingTop: landscape ? "27vh" : "13vh" }}
               className="relative"
             >
               <CardMedia

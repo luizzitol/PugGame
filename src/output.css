@@ -22,6 +22,8 @@ html {
 
 body {
   margin: 0;
+      background-color: #00becc;
+      background-image: url('https://www.transparenttextures.com/patterns/always-grey.png');
 }
 
 /**

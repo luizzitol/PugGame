@@ -7,6 +7,7 @@ import { GameOverScreen } from "./GameOverScreen";
 import UIfx from "uifx";
 import barkDog from "./sounds/bark.mp3";
 import barkDog2 from "./sounds/wrong.mp3";
+import Fullscreen from "react-full-screen";
 
 const bark = new UIfx(barkDog);
 const wrong = new UIfx(barkDog2);
@@ -23,8 +24,31 @@ class App extends React.Component {
       timer: 0,
       moves: 0,
       won: false,
+      landscape: this.isLandscape(),
     };
   }
+
+  componentDidMount() {
+    window.addEventListener("resize", this.handleResize);
+  }
+  componentWillUnmount() {
+    window.addEventListener("resize", null);
+  }
+  handleResize = (height, event) => {
+    this.setState({
+      height: window.innerHeight,
+      width: window.innerWidth,
+      landscape: this.isLandscape(),
+    });
+  };
+
+  isLandscape = () => {
+    if (window.innerWidth > window.innerHeight) {
+      return true;
+    } else {
+      return false;
+    }
+  };
 
   shuffleCards = (array) => {
     console.log(array);
@@ -70,7 +94,7 @@ class App extends React.Component {
     clearInterval(this.timer);
   };
 
-  refreshPage = () => {
+  restartGame = () => {
     this.setState({
       memoryCards: this.shuffleCards(CardList),
       height: window.innerHeight,
@@ -139,47 +163,51 @@ class App extends React.Component {
 
   render() {
     return (
-      <Container maxWidth="lg">
-        <Grid container direction="column">
-          <Grid
-            item
-            container
-            style={{ height: this.state.height / 10 }}
-            alignItems="center"
-            className="text-2xl text-gray-900"
-          >
-            <Grid item container xs={6} justify="center">
-              <h1>Welcome to the PugGame</h1>
+      <Fullscreen enabled={true}>
+        <Container maxWidth="xl">
+          <Grid container direction="column">
+            <Grid
+              item
+              container
+              style={{ height: this.state.height / 10 }}
+              alignItems="center"
+              className="text-2xl text-gray-900"
+            >
+              <Grid item container xs={6} justify="center">
+                <h1>{this.state.timer} seconds</h1>
+              </Grid>
+              <Grid item container xs={6} justify="center">
+                <h1>{this.state.moves} moves</h1>
+              </Grid>
             </Grid>
-            <Grid item container xs={3} justify="center">
-              <h1>{this.state.timer} seconds</h1>
-            </Grid>
-            <Grid item container xs={3} justify="center">
-              <h1>{this.state.moves} moves</h1>
-            </Grid>
-          </Grid>
 
-          <Grid
-            item
-            container
-            style={{ height: (this.state.height / 6) * 5 }}
-            spacing={1}
-          >
-            {this.state.memoryCards.map((card) => {
-              return (
-                <Card key={card.id} card={card} onClick={this.handleClick} />
-              );
-            })}
+            <Grid
+              item
+              container
+              style={{ height: (this.state.height / 6) * 5 }}
+              spacing={1}
+            >
+              {this.state.memoryCards.map((card) => {
+                return (
+                  <Card
+                    key={card.id}
+                    card={card}
+                    onClick={this.handleClick}
+                    landscape={this.state.landscape}
+                  />
+                );
+              })}
+            </Grid>
           </Grid>
-        </Grid>
-        {this.state.won && (
-          <GameOverScreen
-            time={this.state.timer}
-            moves={this.state.moves}
-            refreshPage={() => this.refreshPage()}
-          />
-        )}
-      </Container>
+          {this.state.won && (
+            <GameOverScreen
+              time={this.state.timer}
+              moves={this.state.moves}
+              restartGame={() => this.restartGame()}
+            />
+          )}
+        </Container>
+      </Fullscreen>
     );
   }
 }

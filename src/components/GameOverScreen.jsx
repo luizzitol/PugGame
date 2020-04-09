@@ -31,7 +31,7 @@ export function GameOverScreen(props) {
                   </Grid>
                   <Grid item xs={10}>
                     <Tilt className="Tilt" options={{ max: 30, scale: 1.1 }}>
-                      <div className="bg-green-500" onClick={props.refreshPage}>
+                      <div className="bg-green-500" onClick={props.restartGame}>
                         restart
                       </div>
                     </Tilt>
