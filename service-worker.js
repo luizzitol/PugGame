@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PugGame/precache-manifest.814db9749ea09a9f68151eee7677a49a.js"
+  "/PugGame/precache-manifest.a2c49c0e3ac9bcd9f8e45bca939bb962.js"
 );
 
 self.addEventListener('message', (event) => {

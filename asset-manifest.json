@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PugGame/static/css/main.b7844c91.chunk.css",
-    "main.js": "/PugGame/static/js/main.ef3fb254.chunk.js",
-    "main.js.map": "/PugGame/static/js/main.ef3fb254.chunk.js.map",
-    "runtime-main.js": "/PugGame/static/js/runtime-main.7a5c021d.js",
-    "runtime-main.js.map": "/PugGame/static/js/runtime-main.7a5c021d.js.map",
-    "static/js/2.d7ae85b1.chunk.js": "/PugGame/static/js/2.d7ae85b1.chunk.js",
-    "static/js/2.d7ae85b1.chunk.js.map": "/PugGame/static/js/2.d7ae85b1.chunk.js.map",
+    "main.js": "/PugGame/static/js/main.982af201.chunk.js",
+    "main.js.map": "/PugGame/static/js/main.982af201.chunk.js.map",
+    "runtime-main.js": "/PugGame/static/js/runtime-main.28bed82f.js",
+    "runtime-main.js.map": "/PugGame/static/js/runtime-main.28bed82f.js.map",
+    "static/js/2.9be36d7a.chunk.js": "/PugGame/static/js/2.9be36d7a.chunk.js",
+    "static/js/2.9be36d7a.chunk.js.map": "/PugGame/static/js/2.9be36d7a.chunk.js.map",
     "index.html": "/PugGame/index.html",
-    "precache-manifest.814db9749ea09a9f68151eee7677a49a.js": "/PugGame/precache-manifest.814db9749ea09a9f68151eee7677a49a.js",
+    "precache-manifest.a2c49c0e3ac9bcd9f8e45bca939bb962.js": "/PugGame/precache-manifest.a2c49c0e3ac9bcd9f8e45bca939bb962.js",
     "service-worker.js": "/PugGame/service-worker.js",
     "static/css/main.b7844c91.chunk.css.map": "/PugGame/static/css/main.b7844c91.chunk.css.map",
-    "static/js/2.d7ae85b1.chunk.js.LICENSE.txt": "/PugGame/static/js/2.d7ae85b1.chunk.js.LICENSE.txt",
+    "static/js/2.9be36d7a.chunk.js.LICENSE.txt": "/PugGame/static/js/2.9be36d7a.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/PugGame/static/media/1.4e6dd09b.jpg",
     "static/media/2.jpg": "/PugGame/static/media/2.c2dd7afb.jpg",
     "static/media/3.jpg": "/PugGame/static/media/3.0536e2e9.jpg",
@@ -26,9 +26,9 @@
     "static/media/wrong.mp3": "/PugGame/static/media/wrong.5caa8642.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.7a5c021d.js",
-    "static/js/2.d7ae85b1.chunk.js",
+    "static/js/runtime-main.28bed82f.js",
+    "static/js/2.9be36d7a.chunk.js",
     "static/css/main.b7844c91.chunk.css",
-    "static/js/main.ef3fb254.chunk.js"
+    "static/js/main.982af201.chunk.js"
   ]
 }
