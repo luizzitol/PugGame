@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PugGame/static/css/main.3d61b3a6.css",
+    "main.js": "/PugGame/static/js/main.52b4a521.js",
+    "static/media/1.jpg": "/PugGame/static/media/1.824ba1a2b4a5e4524616.jpg",
+    "static/media/7.jpg": "/PugGame/static/media/7.b4708690658cb61573fa.jpg",
+    "static/media/2.jpg": "/PugGame/static/media/2.b5d62b3ffaec2c585ca5.jpg",
+    "static/media/5.jpg": "/PugGame/static/media/5.88f870a84515ef582ec3.jpg",
+    "static/media/9.jpg": "/PugGame/static/media/9.db3e3b85606986eca29b.jpg",
+    "static/media/bg.jpg": "/PugGame/static/media/bg.f56c1e3fdf0521e9dbd4.jpg",
+    "static/media/4.jpg": "/PugGame/static/media/4.43fc90dda3c5a915e022.jpg",
+    "static/media/6.jpg": "/PugGame/static/media/6.54d0379a6a7ff57ab8e5.jpg",
+    "static/media/8.jpg": "/PugGame/static/media/8.4304d4b139fe2ce2ecaf.jpg",
+    "static/media/3.jpg": "/PugGame/static/media/3.77aaf7f7098dfe7c5e5a.jpg",
+    "static/media/bark.mp3": "/PugGame/static/media/bark.f64768630f5582bb6829.mp3",
+    "static/media/wrong.mp3": "/PugGame/static/media/wrong.6c32b0e9776577b18eed.mp3",
+    "index.html": "/PugGame/index.html",
+    "main.3d61b3a6.css.map": "/PugGame/static/css/main.3d61b3a6.css.map",
+    "main.52b4a521.js.map": "/PugGame/static/js/main.52b4a521.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d61b3a6.css",
+    "static/js/main.52b4a521.js"
+  ]
+}
